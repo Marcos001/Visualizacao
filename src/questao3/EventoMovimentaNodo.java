@@ -40,7 +40,8 @@ public class EventoMovimentaNodo extends KeyAdapter {
                 JOptionPane.showMessageDialog(null,"baixo");
         }              
         
-         this.panel.paint(g);
+         //this.panel.paint(g);
+         this.panel.repaint();
    
     }//fim do método
     
